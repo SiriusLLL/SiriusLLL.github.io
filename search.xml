@@ -23,25 +23,6 @@
     
     
     <entry>
-      <title>test</title>
-      <link href="/2022/09/13/test/"/>
-      <url>/2022/09/13/test/</url>
-      
-        <content type="html"><![CDATA[<figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">hello</span>(<span class="params"></span>)&#123;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> TS </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hello World</title>
       <link href="/2022/09/13/hello-world/"/>
       <url>/2022/09/13/hello-world/</url>
