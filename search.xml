@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Ubuntu中tree的使用</title>
+      <link href="/2022/09/20/tree/"/>
+      <url>/2022/09/20/tree/</url>
+      
+        <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install tree</span><br></pre></td></tr></table></figure><h2 id="tree命令介绍"><a href="#tree命令介绍" class="headerlink" title="tree命令介绍"></a>tree命令介绍</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree --<span class="built_in">help</span></span><br></pre></td></tr></table></figure><h3 id="参数说明"><a href="#参数说明" class="headerlink" title="参数说明"></a>参数说明</h3><p><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20220920163022.png"></p><ul><li>-a 显示所有文件和目录。</li><li>-A 使用ASNI绘图字符显示树状图而非以ASCII字符组合。</li><li>-C 在文件和目录清单加上色彩，便于区分各种类型。</li><li>-d 显示目录名称而非内容。</li><li>-D 列出文件或目录的更改时间。</li><li>-f 在每个文件或目录之前，显示完整的相对路径名称。</li><li>-F 在执行文件，目录，Socket，符号连接，管道名称名称，各自加上”*”,”&#x2F;“,”&#x3D;”,”@”,”|”号。</li><li>-g 列出文件或目录的所属群组名称，没有对应的名称时，则显示群组识别码。</li><li>-i 不以阶梯状列出文件或目录名称。</li><li>-L level 限制目录显示层级。</li><li>-l 如遇到性质为符号连接的目录，直接列出该连接所指向的原始目录。</li><li>-n 不在文件和目录清单加上色彩。</li><li>-N 直接列出文件和目录名称，包括控制字符。</li><li>-p 列出权限标示。</li><li>-P&lt;范本样式&gt; 只显示符合范本样式的文件或目录名称。</li><li>-q 用”?”号取代控制字符，列出文件和目录名称。</li><li>-s 列出文件或目录大小。</li><li>-t 用文件和目录的更改时间排序。</li><li>-u 列出文件或目录的拥有者名称，没有对应的名称时，则显示用户识别码。</li><li>-x 将范围局限在现行的文件系统中，若指定目录下的某些子目录，其存放于另一个文件系统上，则将该子目录予以排除在寻找范围外。</li></ul><h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree -d <span class="comment">#显示目录名称</span></span><br></pre></td></tr></table></figure><p><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20220920163409.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Zotero使用指南</title>
       <link href="/2022/09/13/zotero%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
       <url>/2022/09/13/zotero%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</url>
