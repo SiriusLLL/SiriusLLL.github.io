@@ -1513,7 +1513,7 @@ article .content .caption {
   content: ")";
 }
 .highlight {
-  background: #272822;
+  background: #282828;
   color: #ddd;
 }
 .highlight .code .tag,
@@ -1522,19 +1522,19 @@ article .content .caption {
 .highlight .code .literal,
 .highlight .code .strong,
 .highlight .code .name {
-  color: #f92672;
+  color: #fb4934;
 }
 .highlight .code .code {
-  color: #66d9ef;
+  color: #458588;
 }
 .highlight .code .class .title {
-  color: #fff;
+  color: #83a598;
 }
 .highlight .code .attribute,
 .highlight .code .symbol,
 .highlight .code .regexp,
 .highlight .code .link {
-  color: #bf79db;
+  color: #458588;
 }
 .highlight .code .string,
 .highlight .code .bullet,
@@ -1551,13 +1551,13 @@ article .content .caption {
 .highlight .code .variable,
 .highlight .code .template-tag,
 .highlight .code .template-variable {
-  color: #a6e22e;
+  color: #b8bb26;
 }
 .highlight .code .comment,
 .highlight .code .quote,
 .highlight .code .deletion,
 .highlight .code .meta {
-  color: #75715e;
+  color: #a89984;
 }
 .highlight .code .keyword,
 .highlight .code .selector-tag,
@@ -1568,6 +1568,12 @@ article .content .caption {
 .highlight .code .type,
 .highlight .code .selector-id {
   font-weight: bold;
+}
+.highlight .code .number {
+  color: #b16286;
+}
+.highlight .code .operator {
+  color: #fe8019;
 }
 pre {
   overflow-x: auto;
