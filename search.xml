@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>[论文阅读]HRNet</title>
+      <link href="/2022/09/22/hrnet/"/>
+      <url>/2022/09/22/hrnet/</url>
+      
+        <content type="html"><![CDATA[<p>论文地址：<a href="https://arxiv.org/abs/1908.07919">https://arxiv.org/abs/1908.07919</a></p><p>Github项目地址：<a href="https://github.com/HRNet">https://github.com/HRNet</a></p><p>Human Pose Estimation官方代码：<a href="https://github.com/leoxiaobin/deep-high-resolution-net.pytorch">https://github.com/leoxiaobin/deep-high-resolution-net.pytorch</a></p><p><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20200825200203154.jpg"></p><p><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221003143114.png"></p><p><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221003143143.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 论文 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[Hexo]Hexo博客问题</title>
       <link href="/2022/09/22/hexo%E9%97%AE%E9%A2%98/"/>
       <url>/2022/09/22/hexo%E9%97%AE%E9%A2%98/</url>
@@ -65,7 +84,7 @@
     
     
     <entry>
-      <title>[文献]Zotero使用指南</title>
+      <title>[工具]Zotero使用指南</title>
       <link href="/2022/09/13/zotero%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
       <url>/2022/09/13/zotero%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</url>
       
