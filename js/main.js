@@ -62,7 +62,7 @@ $(document).ready(function () {
         //if (!nav.is(":visible") && topDistance < 50) {
         if (!nav.is(":visible") && topDistance < 90) {
           nav.show();
-        } else if (nav.is(":visible") && topDistance > 100) {
+        } else if (nav.is(":visible") && topDistance > 90) {
           nav.hide();
         }
 
