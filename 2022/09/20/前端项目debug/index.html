@@ -151,7 +151,7 @@
   
 
   <div class="content" itemprop="articleBody">
-    <h2 id="问题描述：前端发起post请求，后端接收到null"><a href="#问题描述：前端发起post请求，后端接收到null" class="headerlink" title="问题描述：前端发起post请求，后端接收到null"></a>问题描述：前端发起post请求，后端接收到null</h2><h2 id="问题分析：后端request方法不对"><a href="#问题分析：后端request方法不对" class="headerlink" title="问题分析：后端request方法不对"></a>问题分析：后端request方法不对</h2><ol>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css" /><div class=".article-gallery"><h2 id="问题描述：前端发起post请求，后端接收到null"><a href="#问题描述：前端发起post请求，后端接收到null" class="headerlink" title="问题描述：前端发起post请求，后端接收到null"></a>问题描述：前端发起post请求，后端接收到null</h2><h2 id="问题分析：后端request方法不对"><a href="#问题分析：后端request方法不对" class="headerlink" title="问题分析：后端request方法不对"></a>问题分析：后端request方法不对</h2><ol>
 <li><p>前端代码</p>
 <ul>
 <li>登录请求方法</li>
@@ -177,7 +177,12 @@
 <p>在接收数据的方法上，起初使用request.values.get，打印结果为null，因为axios发起的数据请求是json格式的PayLoad，应该使用request.get_json()，返回的是一个字典对象。</p>
 </li>
 </ol>
-
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lg-thumbnail/1.2.1/lg-thumbnail.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
   </div>
 </article>
 

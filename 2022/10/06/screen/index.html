@@ -155,7 +155,7 @@
   
 
   <div class="content" itemprop="articleBody">
-    <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>通过ssh连接linux服务器运行代码时，一旦网络波动或者ssh断联，运行就会停止。</p>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css" /><div class=".article-gallery"><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>通过ssh连接linux服务器运行代码时，一旦网络波动或者ssh断联，运行就会停止。</p>
 <p>screen可以建立一个后台运行的窗口，断开连接后只需要重连该screen窗口即可恢复。</p>
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>Ubuntu下（已经默认安装好了）</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install screen</span><br></pre></td></tr></table></figure>
@@ -170,33 +170,38 @@
 <li>使用<code>-R</code>创建，如果之前有创建唯一一个同名的screen，则直接进入之前创建的screen</li>
 </ul>
 <p>例如 <code>screen -S test</code></p>
-<img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006145650.png"  />
+<a target="_blank" rel="noopener" href="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006145650.png" class="gallery-item"><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006145650.png"  /></a>
 
 <h2 id="查看后台已存在的screen"><a href="#查看后台已存在的screen" class="headerlink" title="查看后台已存在的screen"></a>查看后台已存在的screen</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -<span class="built_in">ls</span></span><br></pre></td></tr></table></figure>
 
-<p><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006145804.png"></p>
+<p><a target="_blank" rel="noopener" href="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006145804.png" class="gallery-item"><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006145804.png"></a></p>
 <p>可以看到现在后台有两个screen进程，一个是刚刚创建的test，进程号是32065，状态显示为(Attached)。还有一个是之前创建的lh，进程号17157，状态为(Detached)。</p>
 <ul>
 <li><strong>Attached</strong>：表示当前screen正在作为主终端使用，为活跃状态。</li>
 <li><strong>Detached</strong>：表示当前screen正在后台使用，为非激发状态。</li>
 </ul>
 <h2 id="后台运行screen进程"><a href="#后台运行screen进程" class="headerlink" title="后台运行screen进程"></a>后台运行screen进程</h2><p>先按<code>ctrl+a</code>，再按<code>d</code>，会将Attached状态的进程变为后台运行的Dettached状态。</p>
-<p><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151038.png"></p>
+<p><a target="_blank" rel="noopener" href="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151038.png" class="gallery-item"><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151038.png"></a></p>
 <p>或者在终端输入</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -d [yourname]</span><br></pre></td></tr></table></figure>
 
 <h2 id="恢复后台的screen"><a href="#恢复后台的screen" class="headerlink" title="恢复后台的screen"></a>恢复后台的screen</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -r [yourname]</span><br></pre></td></tr></table></figure>
 
 <p>例如<code>screen -r lh</code></p>
-<p><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151511.png"></p>
+<p><a target="_blank" rel="noopener" href="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151511.png" class="gallery-item"><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151511.png"></a></p>
 <p>会显示<code>lh</code>进程中正在运行的程序</p>
-<p><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151540.png"></p>
+<p><a target="_blank" rel="noopener" href="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151540.png" class="gallery-item"><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151540.png"></a></p>
 <h2 id="结束screen进程"><a href="#结束screen进程" class="headerlink" title="结束screen进程"></a>结束screen进程</h2><p>使用<code>kill</code>命令加进程号即可。</p>
 <p>例如</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">kill</span> 32065</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151756.png"></p>
-
+<p><a target="_blank" rel="noopener" href="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151756.png" class="gallery-item"><img src="https://cdn.staticaly.com/gh/SiriusLLL/blogcdn@main/img/20221006151756.png"></a></p>
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lg-thumbnail/1.2.1/lg-thumbnail.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
   </div>
 </article>
 
